@@ -11,8 +11,6 @@ class Header extends React.Component {
             <React.Fragment>
               
                 <div id="header">
-                    <img src ="img/desk.jpg"></img>
-                <p>hello</p>
                 </div>
                 
             </React.Fragment>
