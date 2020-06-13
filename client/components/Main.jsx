@@ -1,6 +1,7 @@
 import React from 'react'
 import Services from './Services'
 import Team from './Team'
+import Customers from './Customers'
 
 
 class Main extends React.Component {
@@ -13,6 +14,7 @@ class Main extends React.Component {
                 <div id="main">
                     <Services />
                     <Team />
+                    <Customers />
                 </div>
 
             </React.Fragment>
