@@ -6,7 +6,7 @@
 html,
 body {
     color: rgb(247, 0, 0);
-    background-color: black;
+    background-color: white;
     font-family: 'Montserrat', 'Arial', 'sans-serif';
     font-weight: 300;
     font-size: 20px;
@@ -17,11 +17,76 @@ body {
     margin: -60px 30px 0px;
     box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14), 0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
     border-radius: 6px;
-    background-color: white;
+    background-color: whitesmoke;
     height: 100vh;
     z-index: 3;
 }
 
 #header {
-    height: 80vh;
+    height: 90vh;
+    background-color: black;
 }
+
+h1 {
+    text-align: center;
+    padding-top: 2%;
+}
+
+/* -------- Reuseable ------- */
+
+.fixed {
+ display: flex;
+ background-color: transparent;
+ position: fixed;
+  }
+
+.centerImg {
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
+ height: auto;
+ width: 50%;
+  } 
+
+  .flexBox {
+    display: flex;
+    justify-content: flex-end;
+    background: transparent;
+}
+
+
+/* -------- Nav ------- */
+
+.leftNav {
+    display: flex;
+    justify-content: flex-start;
+    background-color: whitesmoke;
+    padding-right: 100%;
+  }
+
+  .leftLogos {
+    position: relative;
+    height: 6.5vh;
+    max-height: 6.5vw;
+    width: auto;
+    margin-left: 2vh;
+    margin-top: 1vh;
+  }
+
+  .navLogos {
+    display: flex;
+    background-color: transparent;
+    height: 3.5vh;
+    max-height: 3.5vw;
+    width: auto;
+    margin-right: 2vh;
+    margin-top: 2vh;
+    border-radius: 10px;
+    transition: box-shadow 0.2s, background-color 0.2s;
+    cursor: pointer;
+}
+
+.navLogos:hover {
+  background-color: #ffa500;
+  box-shadow: 0 5px 15px #ffa500;
+}  
