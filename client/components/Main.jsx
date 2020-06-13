@@ -1,5 +1,6 @@
 import React from 'react'
 import Services from './Services'
+import Team from './Team'
 
 
 class Main extends React.Component {
@@ -11,6 +12,7 @@ class Main extends React.Component {
             <React.Fragment>
                 <div id="main">
                     <Services />
+                    <Team />
                 </div>
 
             </React.Fragment>
