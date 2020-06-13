@@ -3,6 +3,7 @@ import React from 'react'
 import Header from './Header'
 import Main from './Main'
 import Nav from './Nav'
+import Footer from './Footer'
 
 
 class Home extends React.Component {
@@ -14,6 +15,7 @@ class Home extends React.Component {
                 <Nav />
                     <Header />
                     <Main />
+                    <Footer />
             </React.Fragment>
 
         )
