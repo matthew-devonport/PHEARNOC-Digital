@@ -60,7 +60,7 @@ h1 {
 .leftNav {
     display: flex;
     justify-content: flex-start;
-    background-color: whitesmoke;
+    background-color: white;
     padding-right: 100%;
   }
 

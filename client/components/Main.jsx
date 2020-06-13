@@ -1,5 +1,5 @@
 import React from 'react'
-
+import Services from './Services'
 
 
 class Main extends React.Component {
@@ -8,11 +8,11 @@ class Main extends React.Component {
 
     render() {
         return (
-            <React.Fragment>              
+            <React.Fragment>
                 <div id="main">
-                <h1>What services do Phearnoc Digital offer?</h1>
+                    <Services />
                 </div>
-                
+
             </React.Fragment>
         )
     }
