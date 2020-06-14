@@ -5,7 +5,7 @@
 
 html,
 body {
-    color: rgb(247, 0, 0);
+    color: #003747;
     background-color: white;
     font-family: 'Montserrat', 'Arial', 'sans-serif';
     font-weight: 300;
@@ -28,6 +28,7 @@ body {
 }
 
 h1 {
+    color: #06768d;
     text-align: center;
     padding-top: 2%;
 }
@@ -100,7 +101,7 @@ h1 {
 #footer {
     font-weight: 700;
     background-color: black;
-    color:  rgb(225, 0, 0);
+    color:  #7dedf5;
       margin: 0 auto;
     width: auto;
     max-width: 100%;
@@ -225,3 +226,44 @@ h1 {
       font-size: 1.5rem;
       text-align: center;
     }
+
+    .teamIcons {
+      text-align: center;
+      margin-top: 2%;
+    }
+
+    .facebookIcon {
+      margin-left: 1%;
+      margin-right: 1%;
+      cursor: pointer;
+      transition: color 0.2s;
+    }
+
+    .facebookIcon:hover {
+      color: #3b5998;
+      transition: color 0.2s;
+    }    
+
+    .instaIcon {
+      margin-left: 1%;
+      margin-right: 1%;
+      cursor: pointer;
+      transition: color 0.2s;
+    }
+
+    .instaIcon:hover {
+      color: #fe4164;
+      transition: color 0.2s;
+    }   
+
+    .linkedIcon {
+      margin-left: 1%;
+      margin-right: 1%;
+      cursor: pointer;
+      transition: color 0.2s;
+    } 
+    
+    .linkedIcon:hover {
+      color: #0072b1;
+      transition: color 0.2s;
+    }   
