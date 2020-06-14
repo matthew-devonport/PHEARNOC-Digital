@@ -13,7 +13,7 @@ class Services extends React.Component {
                 <div className="servicesContent">
                 <img src="./img/react-icon.png" alt="React Icon" className="icons"></img>
                 <p className="centerText">Code a website using React</p>
-                <p className="servicesInfo">We can build a responsive desktop/mobile website using React</p>
+                <p className="servicesInfo">We build responsive desktop/mobile websites using React</p>
                 </div>
                 <div className="servicesContent">
                 <img src="./img/shopping-icon.png" alt="Shopping Icon" className="icons"></img>   
