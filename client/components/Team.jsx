@@ -8,6 +8,7 @@ class Team extends React.Component {
     render() {
         return (
 <React.Fragment>
+    <div className="greyBackground">
                 <h1>Meet the Team!</h1> 
                 <div className="teamArea">               
                 <div className="teamContent">
@@ -36,6 +37,7 @@ class Team extends React.Component {
                 <i class="fab fa-linkedin linkedIcon fa-lg"></i>
                 </div>         
                 </div> 
+            </div>
             </div>
             </React.Fragment>
         )
