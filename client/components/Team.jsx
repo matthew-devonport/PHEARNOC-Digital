@@ -9,16 +9,22 @@ class Team extends React.Component {
         return (
 <React.Fragment>
                 <h1>Meet the Team!</h1> 
-                <div className="servicesArea">               
-                <div className="servicesContent">
+                <div className="teamArea">               
+                <div className="teamContent">
                 <img src="./img/matthew-devonport.jpg" alt="React Icon" className="teamPic"></img>
-                <p className="centerText">Matthew Devonport</p>
-                <p className="servicesInfo">Here is some text</p>
+                <p className="teamTitle">Matthew Devonport</p>
+                <p className="teamInfo">Owner / Developer / Founder</p>
+                <p className="teamBio">Matthew has a passion for building applications. With 8 years experience in the tech and customer
+                    service industry, he strives to deliver 
+                </p>
                 </div>
-                <div className="servicesContent">
+                <div className="teamContent">
                 <img src="./img/lyondhur-picciarelli.jpg" alt="Shopping Icon" className="teamPic"></img>   
-                <p className="centerText">Lyondhur Picciarelli</p>
-                <p className="servicesInfo">Here is some text</p>
+                <p className="teamTitle">Lyondhur Picciarelli</p>
+                <p className="teamInfo">Design &amp; Systems Adviser</p>
+                <p className="teamBio">Matthew has a passion for building applications. With 8 years experience in the tech and customer
+                    service industry, he strives to deliver 
+                </p>                
                 </div> 
             </div>
             </React.Fragment>
