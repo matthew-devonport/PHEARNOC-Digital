@@ -15,7 +15,7 @@ class Footer extends React.Component {
                        <ul className="footer-nav">
                         </ul>
                         <p className="copyrightText">
-                            Copyright &copy; Flash Gas and Plumbing. All rights reserved.<br />
+                            Copyright &copy; 2020 PHEARNOC Digital. All rights reserved.<br />
                             <a href="https://github.com/matthew-devonport" target="_blank" className="matty">Website Design &amp; Build by Matthew Devonport</a>
                         </p>
                     </footer>
