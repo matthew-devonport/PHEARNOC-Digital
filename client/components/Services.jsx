@@ -58,7 +58,7 @@ class Services extends React.Component {
             togglePopup={() => this.togglePopup(null)} 
           >
             <div>
-          {this.contactForm}
+          {this.reactJS}
             </div>
           </PopUpBox>
         )}
