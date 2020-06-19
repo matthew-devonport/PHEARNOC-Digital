@@ -16,9 +16,9 @@ class Team extends React.Component {
                 <p className="teamTitle">Matthew Devonport</p>
                 <p className="teamInfo">Owner / Developer / Founder</p>
                 <div className="teamIcons">
-                <i class="fab fa-facebook-square fa-lg facebookIcon"></i>
-                <i class="fab fa-instagram instaIcon fa-lg"></i>
-                <i class="fab fa-linkedin linkedIcon fa-lg"></i>
+                <i class="fab fa-facebook-square fa-sm facebookIcon"></i>
+                <i class="fab fa-instagram instaIcon fa-sm"></i>
+                <i class="fab fa-linkedin linkedIcon fa-sm"></i>
                 </div>  
                 </div>
                 <div className="teamContent">
@@ -26,9 +26,9 @@ class Team extends React.Component {
                 <p className="teamTitle">Lyondhur Picciarelli</p>
                 <p className="teamInfo">Design &amp; Systems Adviser</p>
                 <div className="teamIcons">
-                <i class="fab fa-facebook-square fa-lg facebookIcon"></i>
-                <i class="fab fa-instagram instaIcon fa-lg"></i>
-                <i class="fab fa-linkedin linkedIcon fa-lg"></i>
+                <i class="fab fa-facebook-square fa-sm facebookIcon"></i>
+                <i class="fab fa-instagram instaIcon fa-sm"></i>
+                <i class="fab fa-linkedin linkedIcon fa-sm"></i>
                 </div>         
                 </div> 
             </div>
