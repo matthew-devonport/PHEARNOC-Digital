@@ -7,11 +7,13 @@ class Customers extends React.Component {
 
     render() {
         return (
-            <div>
-                <h1>Here are some of our customers!</h1>
-                <div>Deathless Studio</div>
-                <div>Flash Gas &amp; Plumbing</div>
+            <React.Fragment>
+            <h1>Here are some of our customers!</h1>
+            <div className="homeArea"> 
+                <img src="./img/flashgas.png" alt="flashgas logo" className="customerLogo"></img>
+                <img src="./img/deathless.png" alt="deathless logo" className="customerLogo"></img>
             </div>
+            </React.Fragment>
         )
     }
     

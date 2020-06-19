@@ -16,7 +16,6 @@ class Footer extends React.Component {
                         </ul>
                         <p className="copyrightText">
                             Copyright &copy; 2020 PHEARNOC Digital. All rights reserved.<br />
-                            <a href="https://github.com/matthew-devonport" target="_blank" className="matty">Website Design &amp; Build by Matthew Devonport</a>
                         </p>
                     </footer>
                 </div>
