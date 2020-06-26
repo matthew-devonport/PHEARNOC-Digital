@@ -7,15 +7,23 @@ class Services extends React.Component {
     constructor(props) {
         super(props)
         this.state = {
-            popUpContent: null,
+            popupIsShowing: false
         }
     }
 
-    togglePopup(id = null) {
-        this.setState((state, props) => ({
-            popUpContent: id,
-        }))
+    popupContent = ''
+
+    togglePopup = () => {
+        this.setState({
+            popupIsShowing: !this.state.popupIsShowing
+        })
     }
+
+    setPopup = (content) => {
+        this.togglePopup(),
+            this.popupContent = content
+    }
+
 
     render() {
         return (
@@ -26,7 +34,7 @@ class Services extends React.Component {
                         <img src="./img/react-icon.png" alt="React Icon" className="icons"></img>
                         <p className="centerText">Code a website using React</p>
                         <p className="servicesInfo">We build responsive desktop/mobile websites using React</p>
-                        <p onClick={() => this.togglePopup(this.reactJS)} className="learnMore">Learn More</p>
+                        <p onClick={() => this.setPopup(this.phearnocServices)} className="learnMore">Learn More</p>
                     </div>
                     <div className="servicesContent">
                         <img src="./img/shopping-icon.png" alt="Shopping Icon" className="icons"></img>
@@ -53,19 +61,13 @@ class Services extends React.Component {
                         <p className="learnMore">Learn More</p>
                     </div>
                 </div>
-                {this.state.popUpContent !== null && (
-          <PopUpBox
-            togglePopup={() => this.togglePopup(null)} 
-          >
-            <div>
-          {this.reactJS}
-            </div>
-          </PopUpBox>
-        )}
+                {this.state.popupIsShowing && <PopUpBox content={this.popupContent} togglePopup={this.togglePopup}
+                />}
+        )
             </React.Fragment>
         )
     }
-    reactJS = (
+    phearnocServices = (
         <div>
             <p>testing</p>
         </div>
