@@ -1,6 +1,7 @@
 import React from 'react';
-import PopUpBox from './PopUpBox'
 
+import PopUpBox from './PopUpBox'
+import PhearnocInfo from './PhearnocInfo'
 
 
 class Services extends React.Component {
@@ -32,15 +33,9 @@ class Services extends React.Component {
                 <div className="servicesArea">
                     <div className="servicesContent">
                         <img src="./img/react-icon.png" alt="React Icon" className="icons"></img>
-                        <p className="centerText">Code a website using React</p>
-                        <p className="servicesInfo">We build responsive desktop/mobile websites using React</p>
+                        <p className="centerText">What is the core of our business?</p>
+                        <p className="servicesInfo">What services does PHEARNOC Digital offer to your business?</p>
                         <p onClick={() => this.setPopup(this.phearnocServices)} className="learnMore">Learn More</p>
-                    </div>
-                    <div className="servicesContent">
-                        <img src="./img/shopping-icon.png" alt="Shopping Icon" className="icons"></img>
-                        <p className="centerText">Build an online shop</p>
-                        <p className="servicesInfo">We can create a responsive desktop/mobile shop using Shopify</p>
-                        <p className="learnMore">Learn More</p>
                     </div>
                     <div className="servicesContent">
                         <img src="./img/contract-icon.png" alt="Contract Icon" className="icons"></img>
@@ -69,7 +64,8 @@ class Services extends React.Component {
     }
     phearnocServices = (
         <div>
-            <p>testing</p>
+            <img src="./img/logo.png" alt="Main Logo" className="popUpLogo centerImg"></img>
+            <PhearnocInfo />
         </div>
     )
 
