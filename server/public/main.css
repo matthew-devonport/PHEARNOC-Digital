@@ -115,7 +115,7 @@ h1 {
     font-size: 5rem;
     font-weight: bold;
     text-decoration: none;
-      color: #ffa500;
+      color: #06768d;
       cursor: pointer;
   }
 
@@ -129,7 +129,7 @@ h1 {
     font-size: 5rem;
     font-weight: bold;
     text-decoration: none;
-      color: #ffa500;
+      color: #06768d;
       cursor: pointer;
   }
   
@@ -169,13 +169,20 @@ h1 {
   color: whitesmoke;
 }
 
+.popUpTopTitle {
+  padding-top: 3%;
+}
+
 .popUpBold {
   font-size: 40px;
   font-weight: 600;
-  padding-top: 3%;
+
   margin: 2% 0 2% 0;
 }
 
+.popUpLargerText {
+  font-size: 23px;
+}
 .websitePic {
   height: 40vh;
   max-width: 40%;
