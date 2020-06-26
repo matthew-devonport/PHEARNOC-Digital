@@ -58,7 +58,7 @@ class Services extends React.Component {
                 </div>
                 {this.state.popupIsShowing && <PopUpBox content={this.popupContent} togglePopup={this.togglePopup}
                 />}
-        )
+        
             </React.Fragment>
         )
     }
