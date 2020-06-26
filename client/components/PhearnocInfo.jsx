@@ -7,7 +7,7 @@ class PhearnocInfo extends React.Component {
             <React.Fragment>
                 <h2 className="popUpTitle">What does PHERANOC Digital actually offer to my business or project?</h2>
                 <div className="popUpBorderBox">
-                <p className="centerText popUpBold popUpTopTitle">Up front, we build websites that connect you with your customers.</p>    
+                <p className="centerText popUpBold popUpTopTitle">We build websites that connects your business with your customers.</p>    
                 <img src="./img/websites.png" alt="Websites Pictures" className="websitePic"></img>
                 <p className="popUpText">
                 How we shape this is by discussing with you what you offer to your customers, how you connect with them and what services or products you provide to them.<br /><br />
@@ -16,14 +16,13 @@ class PhearnocInfo extends React.Component {
                 <li>Custom built.</li><br />
                 <li>Built using a template to your liking.</li><br />
                 <li>Shaped similar to a website that is currently live.</li><br />
-                </ul>
-                How this will look and function depends on the size and budget of your project/business.<br/><br />
+                </ul><br />
                 <strong>Your website will always be:</strong><br /><br />
                 <ul>
                 <li>Easy to read and navigate.</li><br />                    
-                <li>Responsive on desktops/laptops/tablets/phones (this includes ipads and iphones).</li><br />  
-
+                <li>Responsive on desktops/laptops/tablets/phones.</li><br />  
                 </ul>
+                How this will look and function depends on the size and budget of your project/business.<br/>
                 <p className="centerText popUpBold">It doesn't stop there!</p>
                 <br />     
                 Importantly, what we offer isn't just building a website for your business. We want to guide our customers through the complexity of the digital world.<br /><br />
@@ -42,6 +41,16 @@ class PhearnocInfo extends React.Component {
                 <p className="centerText popUpBold">Sounds great! I'm interested! What's the next step?</p>
                 <p className="centerText">Get in touch with us! Click one of the options below and give us a quick rundown on what your business or idea is!</p>    
                </p>
+               <div className="contactFlex">
+                <div className="contactColumn">
+               <img src="./img/phone.png" alt="React Icon" className="phoneLogo centerImg"></img>  
+               <a className="centerText">Phone Us</a>
+               </div>
+               <div className="contactColumn">  
+               <img src="./img/email.png" alt="React Icon" className="emailLogo centerImg"></img>
+               <a className="centerText">Email Us</a>
+               </div>
+               </div>
             </div>
             </React.Fragment>
         )

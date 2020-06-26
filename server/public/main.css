@@ -190,6 +190,42 @@ h1 {
   margin: 0 auto 0 auto;
   padding: 2% 0 2% 0
 }
+
+.contactFlex {
+  max-width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  padding-bottom: 5%;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.contactColumn {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  cursor: pointer;
+}
+
+.emailLogo {
+  max-height: 1000px;
+  max-width: 20%;
+  width: auto;
+  cursor: pointer;
+  margin-bottom: 2%;
+  margin-top: 3%;
+}
+
+.phoneLogo {
+  max-height: 400px;
+  max-width: 20%;
+  width: auto;
+  cursor: pointer;
+  margin-bottom: 2%;
+  margin-top: 3%;
+}
+
 /* -------- Nav ------- */
 
 .leftNav {
