@@ -17,10 +17,11 @@ class PhearnocInfo extends React.Component {
                 <li>Built using a template to your liking.</li><br />
                 <li>Shaped similar to a website that is currently live.</li><br />
                 </ul><br />
-                <strong>Your website will always be:</strong><br /><br />
+                <strong>Your website will be:</strong><br /><br />
                 <ul>
                 <li>Easy to read and navigate.</li><br />                    
-                <li>Responsive on desktops/laptops/tablets/phones.</li><br />  
+                <li>Responsive on desktops/laptops/tablets/phones.</li><br />
+                <li>Running smoothly and have no bugs.</li><br />    
                 </ul>
                 How this will look and function depends on the size and budget of your project/business.<br/>
                 <p className="centerText popUpBold">It doesn't stop there!</p>
