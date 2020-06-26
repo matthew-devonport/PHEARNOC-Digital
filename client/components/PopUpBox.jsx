@@ -2,16 +2,16 @@ import React from "react"
 
 class PopUpBox extends React.Component {
   render() {
-    let { togglePopup, children } = this.props
+    let { togglePopup, content} = this.props
     return (
       <React.Fragment>
-        <div id="popup-overlay">
-          <div id="popup-content">
-            {children}
-          </div>
-          <a id="popup-close" onClick={togglePopup}>
-            &times;
-          </a>
+        <div id='popup-overlay-services'>
+            <div id='popup-content'>
+            {content}
+            </div>
+            <a id='popup-close-services' onClick={togglePopup}>
+              &times;
+            </a>
         </div>
       </React.Fragment>
     )

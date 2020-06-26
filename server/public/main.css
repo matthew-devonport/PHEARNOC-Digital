@@ -25,6 +25,7 @@ body {
 #header {
     height: 90vh;
     background-color: black;
+    display: flex;
 }
 
 h1 {
@@ -57,6 +58,17 @@ h1 {
     display: flex;
     justify-content: flex-end;
     background: transparent;
+}
+
+
+/* -- Header -- */
+
+.mainLogo {
+  height: 450px;
+  width: auto;
+  align-items: center;
+  margin-left: 8%;
+  margin-top: 150px;
 }
 
   /* ------ Pop Up Box ------ */
@@ -129,6 +141,18 @@ h1 {
     color: #800000;
   }
 
+
+  .popUpLogo {
+    max-height: 45vh;
+    width: auto;
+    max-width: 80%;
+    margin-top: 5vh;
+    padding-bottom: 3vh;
+   }
+
+   .popUpText {
+     color: white
+   }
 /* -------- Nav ------- */
 
 .leftNav {
@@ -170,12 +194,12 @@ h1 {
 #footer {
     font-weight: 700;
     background-color: black;
-    color:  #7dedf5;
-      margin: 0 auto;
+    color:  #40E0D0;
+    margin: 0 auto;
     width: auto;
     max-width: 100%;
-      background-size: contain;
-      position: relative;
+    background-size: contain;
+    position: relative;
   }
   
   .footer-nav {
