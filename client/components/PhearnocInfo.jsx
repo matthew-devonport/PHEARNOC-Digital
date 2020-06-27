@@ -7,35 +7,51 @@ class PhearnocInfo extends React.Component {
             <React.Fragment>
                 <h2 className="popUpTitle">What does PHERANOC Digital actually offer to my business or project?</h2>
                 <div className="popUpBorderBox">
-                <p className="centerText popUpBold">Up front, we build websites that connect you with your customers.</p>    
+                <p className="centerText popUpBold popUpTopTitle">We build websites that connects your business with your customers.</p>    
                 <img src="./img/websites.png" alt="Websites Pictures" className="websitePic"></img>
                 <p className="popUpText">
                 How we shape this is by discussing with you what you offer to your customers, how you connect with them and what services or products you provide to them.<br /><br />
-                These websites are create are either:<br /><br />
+                <strong>These websites we create are either:</strong><br /><br />
                 <ul>
-                <li>Custom built.</li>
-                <li>Built using a template to your liking.</li>
-                <li>Shaped similar to a website that is currently live.</li>
+                <li>Custom built.</li><br />
+                <li>Built using a template to your liking.</li><br />
+                <li>Shaped similar to a website that is currently live.</li><br />
                 </ul><br />
-                How this will look and function depends on the size and budget of your project/business.
-                <p className="centerText popUpBold">It doesn't stop there!</p>
+                <strong>Your website will be:</strong><br /><br />
+                <ul>
+                <li>Easy to read and navigate.</li><br />                    
+                <li>Responsive on desktops/laptops/tablets/phones.</li><br />
+                <li>Running smoothly and have no bugs.</li><br />    
+                </ul>
+                How this will look and function depends on the size and budget of your project/business.<br/>
+                <p className="centerText popUpBold">But wait, It doesn't stop there!</p>
                 <br />     
                 Importantly, what we offer isn't just building a website for your business. We want to guide our customers through the complexity of the digital world.<br /><br />
-                We understand the importance of having a digital presence/trading abilities in current times and also how rapidly changing the digital and real world envrionments are.
+                We understand the importance of having a digital presence/trading abilities in current times and also how rapidly changing the digital and real world envrionments are.<br /><br />
                 Making sure that our customers and their businesses are opertaing online at their maximum ability is our main service and objective.
                 <br />       
-                We make the processes as simple and as easy as possible to make sure you and your business is not left in the dark.<br />
-                This gives you peace of mind that you are outsourcing your business to your customers digitally in the most effective way possible.
+                We make the processes as simple and as easy as possible to make sure you and your business is not left in the dark.<br /><br />
+                <p className="centerText popUpLargerText">This gives you peace of mind that you are outsourcing your business to your customers digitally in the most effective way possible.</p>
                 <br /><br />       
-                The ways we do this are:<br /><br />
-                <ul>
-                <li>Making your website easy to read and navigate.</li>                    
-                <li>Having your website responsive on desktops/laptops/tablets/phones (this includes ipads and iphones).</li>                    
-                <li>Helping with problem solving when you hit road blocks.</li>                   
-                <li>Linking current available videos or creating easy to access videos showing step by step how to achieve the questions you have on any uncertainties.</li>    
-                <li>Keeping in regular contact to make sure that you're happy with how your business is running digitally.</li>
-                </ul>    
+                <strong>The ways we do this are:</strong><br /><br />
+                <ul>                  
+                <li>Helping with problem solving when you hit road blocks.</li><br />                   
+                <li>Linking current available videos or creating easy to access videos showing step by step how to achieve the questions you have on any uncertainties.</li><br />    
+                <li>Keeping in regular contact to make sure that you're happy with how your business is running digitally.</li><br />
+                </ul>
+                <p className="centerText popUpBold">Sounds great! I'm interested! What's the next step?</p>
+                <p className="centerText">Get in touch with us! Click one of the options below and give us a quick rundown on what your business or idea is!</p>    
                </p>
+               <div className="contactFlex">
+                <div className="contactColumn">
+               <img src="./img/phone.png" alt="React Icon" className="phoneLogo centerImg"></img>  
+               <a className="centerText">Phone Us</a>
+               </div>
+               <div className="contactColumn">  
+               <img src="./img/email.png" alt="React Icon" className="emailLogo centerImg"></img>
+               <a className="centerText">Email Us</a>
+               </div>
+               </div>
             </div>
             </React.Fragment>
         )

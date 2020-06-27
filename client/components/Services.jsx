@@ -2,6 +2,7 @@ import React from 'react';
 
 import PopUpBox from './PopUpBox'
 import PhearnocInfo from './PhearnocInfo'
+import ContractUs from './ContractUs';
 
 
 class Services extends React.Component {
@@ -41,17 +42,17 @@ class Services extends React.Component {
                         <img src="./img/contract-icon.png" alt="Contract Icon" className="icons"></img>
                         <p className="centerText">Contract us to code</p>
                         <p className="servicesInfo">Need your website design coded? We can do it!</p>
-                        <p className="learnMore">Learn More</p>
+                        <p onClick={() => this.setPopup(this.contractUs)} className="learnMore">Learn More</p>
                     </div>
                     <div className="servicesContent">
-                        <img src="./img/maintain-icon.png" alt="Maintain Icon" className="icons"></img>
-                        <p className="centerText">Maintain your website</p>
-                        <p className="servicesInfo">Eliminate stress as we keep your website up to date with content</p>
+                        <img src="./img/checklist-icon.png" alt="Maintain Icon" className="icons"></img>
+                        <p className="centerText">Service Plan</p>
+                        <p className="servicesInfo">Great benefits for you business at a low monthly rate.</p>
                         <p className="learnMore">Learn More</p>
                     </div>
                     <div className="servicesContent">
                         <img src="./img/customer-icon.png" alt="Customer Icon" className="icons"></img>
-                        <p className="centerText">Great customer support</p>
+                        <p className="centerText">Excellent customer support</p>
                         <p className="servicesInfo">Clear communication and support means great peace of mind</p>
                         <p className="learnMore">Learn More</p>
                     </div>
@@ -69,6 +70,12 @@ class Services extends React.Component {
         </div>
     )
 
+    contractUs = (
+        <div>
+            <img src="./img/logo.png" alt="Main Logo" className="popUpLogo centerImg"></img>
+            <ContractUs />
+        </div>
+    )    
 
 }
 export default Services
