@@ -24,7 +24,7 @@ class PhearnocInfo extends React.Component {
                 <li>Running smoothly and have no bugs.</li><br />    
                 </ul>
                 How this will look and function depends on the size and budget of your project/business.<br/>
-                <p className="centerText popUpBold">It doesn't stop there!</p>
+                <p className="centerText popUpBold">But wait, It doesn't stop there!</p>
                 <br />     
                 Importantly, what we offer isn't just building a website for your business. We want to guide our customers through the complexity of the digital world.<br /><br />
                 We understand the importance of having a digital presence/trading abilities in current times and also how rapidly changing the digital and real world envrionments are.<br /><br />
