@@ -61,6 +61,14 @@ h1 {
     background: transparent;
 }
 
+.contactUs {
+  background-color: #003747;
+  color: whitesmoke;
+  padding-top: 3%;
+  margin-left: 0;
+  margin-right: 0;
+}
+
 
 /* -- Header -- */
 
@@ -197,6 +205,7 @@ h1 {
   justify-content: space-evenly;
   flex-wrap: wrap;
   padding-bottom: 5%;
+  padding-top: 2%;
   margin-left: 20%;
   margin-right: 20%;
 }

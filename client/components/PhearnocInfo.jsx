@@ -39,9 +39,11 @@ class PhearnocInfo extends React.Component {
                 <li>Linking current available videos or creating easy to access videos showing step by step how to achieve the questions you have on any uncertainties.</li><br />    
                 <li>Keeping in regular contact to make sure that you're happy with how your business is running digitally.</li><br />
                 </ul>
+                </p>
+                <div className="contactUs">
                 <p className="centerText popUpBold">Sounds great! I'm interested! What's the next step?</p>
                 <p className="centerText">Get in touch with us! Click one of the options below and give us a quick rundown on what your business or idea is!</p>    
-               </p>
+
                <div className="contactFlex">
                 <div className="contactColumn">
                <img src="./img/phone.png" alt="React Icon" className="phoneLogo centerImg"></img>  
@@ -50,6 +52,7 @@ class PhearnocInfo extends React.Component {
                <div className="contactColumn">  
                <img src="./img/email.png" alt="React Icon" className="emailLogo centerImg"></img>
                <a className="centerText">Email Us</a>
+               </div>
                </div>
                </div>
             </div>
