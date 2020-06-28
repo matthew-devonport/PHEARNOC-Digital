@@ -185,7 +185,6 @@ h1 {
 .popUpBold {
   font-size: 40px;
   font-weight: 600;
-
   margin: 2% 0 2% 0;
 }
 
@@ -467,4 +466,21 @@ h1 {
   margin-left: 3%;
   margin-right: 3%;
   cursor: pointer;
+}
+
+/* --- About Us --- */
+
+.aboutArea {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 5%;
+  margin-right: 5%;
+  justify-content: space-evenly;
+  margin-bottom: 3%;
+}
+
+.aboutUsBold {
+  font-size: 30px;
+  font-weight: 600;
+  margin: 2% 0 0 0;
 }
