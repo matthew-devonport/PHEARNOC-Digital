@@ -23,7 +23,8 @@ class ContractUs extends React.Component {
                 <strong>This is dependant on:</strong><br /><br />
                 <ul>                  
                 <li>What or how much work is required in regards to the projects budget.</li><br />                   
-                <li>Urgency on when the work needs to be completed.</li><br />    
+                <li>Urgency on when the work needs to be completed.</li><br />
+                <li>If there will be ongoing contract work in the future between us.</li><br />     
                 </ul>
                 <p className="popUpLargerText centerText">Our business gives you control on scope and budget. We fit to your needs. We are more than happy to discuss and negotiate our services.</p>    
                <p className="centerText popUpBold">Sounds great! I'm interested! What's the next step?</p>
