@@ -7,9 +7,9 @@ class Nav extends React.Component {
 
     render() {
         return (
-            <div id="navBackground">
+            <div className="navBackground">
                 <div className="leftNav fixed">
-                    <img src="./img/logo-black.png" alt="Main Logo" className="leftLogos"></img>
+                    <img src="./img/eyes.png" alt="Main Logo" className="leftLogos"></img>
                 </div>
                 <div className="flexBox">
                     <div className="fixed">
