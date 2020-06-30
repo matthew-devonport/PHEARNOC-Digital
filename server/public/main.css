@@ -88,7 +88,16 @@ h1 {
   right: 0;
   margin-bottom: 300px;
   margin-right: 100px;
+}
 
+.slogan {
+  font-size: 30px;
+  position: absolute;
+  color: white;
+  bottom: 0;
+  left: 0;
+  margin-bottom: 330px;
+  margin-left: 130px;
 }
 
   /* ------ Pop Up Box ------ */
