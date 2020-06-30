@@ -22,6 +22,7 @@ body {
     z-index: 3;
 }
 
+
 #header {
     height: 90vh;
     background-color: black;
@@ -58,6 +59,14 @@ h1 {
     display: flex;
     justify-content: flex-end;
     background: transparent;
+}
+
+.contactUs {
+  background-color: #003747;
+  color: whitesmoke;
+  padding-top: 2%;
+  margin-left: 0;
+  margin-right: 0;
 }
 
 
@@ -176,7 +185,6 @@ h1 {
 .popUpBold {
   font-size: 40px;
   font-weight: 600;
-
   margin: 2% 0 2% 0;
 }
 
@@ -197,6 +205,7 @@ h1 {
   justify-content: space-evenly;
   flex-wrap: wrap;
   padding-bottom: 5%;
+  padding-top: 2%;
   margin-left: 20%;
   margin-right: 20%;
 }
@@ -231,17 +240,15 @@ h1 {
 .leftNav {
     display: flex;
     justify-content: flex-start;
-    background-color: white;
+    background-color: whitesmoke;
     padding-right: 100%;
   }
 
   .leftLogos {
     position: relative;
-    height: 6.5vh;
-    max-height: 6.5vw;
+    height: 6vh;
     width: auto;
-    margin-left: 2vh;
-    margin-top: 1vh;
+    margin-left: 1%;
   }
 
   .navLogos {
@@ -373,8 +380,8 @@ h1 {
       align-self: center;
       margin-top: 5%;
       max-width: 30%;
-      margin-left: 2%;
-      margin-right: 2%;
+      margin-left: 5%;
+      margin-right: 5%;
     }
 
     .teamPic {
@@ -406,8 +413,8 @@ h1 {
     }
 
     .facebookIcon {
-      margin-left: 1%;
-      margin-right: 1%;
+      margin-left: 2%;
+      margin-right: 2%;
       cursor: pointer;
       transition: color 0.2s;
     }
@@ -418,8 +425,8 @@ h1 {
     }    
 
     .instaIcon {
-      margin-left: 1%;
-      margin-right: 1%;
+      margin-left: 2%;
+      margin-right: 2%;
       cursor: pointer;
       transition: color 0.2s;
     }
@@ -430,8 +437,8 @@ h1 {
     }   
 
     .linkedIcon {
-      margin-left: 1%;
-      margin-right: 1%;
+      margin-left: 2%;
+      margin-right: 2%;
       cursor: pointer;
       transition: color 0.2s;
     } 
@@ -459,3 +466,46 @@ h1 {
   margin-right: 3%;
   cursor: pointer;
 }
+
+/* --- About Us --- */
+
+#aboutUs {
+  margin: -60px 30px 0px;
+  box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14), 0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+  border-radius: 6px;
+  background-color: whitesmoke;
+  height: 100%;
+  z-index: 3;
+}
+
+#aboutArea {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap-reverse;
+  margin-top: 5%;
+  margin-left: 2%;
+  margin-right: 2%;
+  justify-content: space-evenly;
+  margin-bottom: 3%;
+}
+
+.aboutUsBold {
+  font-size: 30px;
+  font-weight: 600;
+  margin: 0 0 2% 0;
+}
+
+.aboutUsLogo {
+  max-height: 30vh;
+  width: auto;
+ }
+
+ .aboutUsInfo {
+   display: flex;
+   flex-direction: column;
+   max-width: 50%;
+ }
+
+ .logoFlex {
+   display: flex;
+ }
