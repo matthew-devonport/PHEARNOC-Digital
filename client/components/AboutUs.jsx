@@ -26,7 +26,7 @@ class AboutUs extends React.Component {
                     </p>
                     </div>
                     <div className="logoFlex">
-                    <img src="./img/logo.png" alt="Main Logo" className="aboutUsLogo"></img>
+                    <img src="./img/logo-black.png" alt="Main Logo" className="aboutUsLogo"></img>
                     </div>
                     </div>
                     <div className="contactUs">
