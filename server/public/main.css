@@ -269,6 +269,19 @@ h1 {
   box-shadow: 0 5px 15px #ffa500;
 }  
 
+/* --- Claw --- */
+
+.claw {
+  height: 250px;
+  width: auto;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin-bottom: 20px;
+  margin-right: 55px;
+  z-index: 4;
+}
+
 /* -------- Footer ------- */
 
 #footer {
