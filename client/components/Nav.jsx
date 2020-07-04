@@ -9,9 +9,6 @@ class Nav extends React.Component {
     render() {
         return (
             <div className="navBackground fixed">
-                <div className="leftNav fixed">
-                    <div className="leftLinks">HOME</div>
-                </div>
                 <div className="rightNav fixed">
                 <div className="rightLinks">ABOUT</div>
                 <div className="rightText">CONTACT:</div>
