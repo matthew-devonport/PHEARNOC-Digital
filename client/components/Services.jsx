@@ -48,14 +48,14 @@ class Services extends React.Component {
                         <img src="./img/checklist-icon.png" alt="Maintain Icon" className="icons"></img>
                         <p className="centerText">Service Plan</p>
                         <p className="servicesInfo">Great benefits for you business at a low monthly rate.</p>
-                        <p className="learnMore">Learn More</p>
+                        <p className="learnMore">Coming Soon!</p>
                     </div>
-                    <div className="servicesContent">
+                    {/* <div className="servicesContent">
                         <img src="./img/customer-icon.png" alt="Customer Icon" className="icons"></img>
                         <p className="centerText">Excellent customer support</p>
                         <p className="servicesInfo">Clear communication and support means great peace of mind</p>
                         <p className="learnMore">Learn More</p>
-                    </div>
+                    </div> */}
                 </div>
                 {this.state.popupIsShowing && <PopUpBox content={this.popupContent} togglePopup={this.togglePopup}
                 />}
