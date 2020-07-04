@@ -273,41 +273,57 @@ h1 {
 
 .leftNav {
     display: flex;
-    justify-content: flex-start;
     background-color: black;
-    padding-right: 100%;
+    padding-left: 0.5%;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    width: 100%;
   }
 
-  .leftLogos {
-    position: relative;
-    height: 6vh;
-    width: auto;
-    margin-left: 1%;
-  }
+.leftLinks {
+  color: #003647
 
-  .navLogos {
+}
+
+  .rightNav {
     display: flex;
-    background-color: transparent;
-    height: 3.5vh;
-    max-height: 3.5vw;
-    width: auto;
-    margin-right: 2vh;
-    margin-top: 2vh;
-    border-radius: 10px;
-    transition: box-shadow 0.2s, background-color 0.2s;
-    cursor: pointer;
+    justify-content: flex-end;
+    right: 0;
+    padding-right: 0.5%;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
 }
 
-.navLogos:hover {
-  background-color: #ffa500;
-  box-shadow: 0 5px 15px #ffa500;
+.rightLinks {
+  padding-left: 2.5%;
+  padding-right: 2.5%;
+  cursor: pointer;
+  transition: box-shadow 0.2s, background-color 0.2s, border-radius 0.2s;
 }
 
+.rightLinks:hover {
+  background-color: #003647;
+  border-radius: 25px;
+  box-shadow: 0 5px 15px #003747;
+}
+
+.rightText {
+  color:#40E0D0;
+  padding-left: 4%;
+  padding-right: 2%;
+}
 .navBackground {
+  display: flex;
+  font-family: 'Orbitron', 'Arial', 'sans-serif';
+  font-weight: 700;
+  color: white;
   z-index: 6;
   position: absolute;
   background-color: black;
+  width: 100%;
 }
+
+
 
 
 /* -------- Footer ------- */
