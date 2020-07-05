@@ -9,17 +9,26 @@ class Footer extends React.Component {
         return (
             <React.Fragment>
                 <div id='footer'>
-                    <footer>
+                    <div className="footerFlex">
                         <div className="leftFooter">
-                       </div>
-                       <ul className="footer-nav">
-                        </ul>
-                        <p className="copyrightText">
-                            Copyright &copy; 2020 PHEARNOC Digital. All rights reserved.<br />
-                        </p>
-                    </footer>
+                            <div className="contactTitle">CONTACT US</div>
+                            <div id="contactLinks"></div>
+                            <a>0204198333</a>
+                            <a>matthew@phearnoc.com</a>
+                        </div>
+                        <div className="socialMedia">
+                            <div className="mediaTitle">SOCIAL MEDIA</div>
+                            <div className="mediaLinks">
+                                <i className="fab fa-facebook-square fa-lg facebookIcon footerMedia"></i>
+                                <i className="fab fa-instagram instaIcon fa-lg footerMedia"></i>
+                                <i className="fab fa-linkedin linkedIcon fa-lg footerMedia"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="copyrightText">
+                        Copyright &copy; 2020&nbsp;<p className="brand">PHEARNOC Digital.</p>&nbsp;All rights reserved.<br />
+                    </div>
                 </div>
-
             </React.Fragment>
         )
     }
