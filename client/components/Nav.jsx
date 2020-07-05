@@ -11,9 +11,12 @@ class Nav extends React.Component {
             <div className="navBackground fixed">
                 <div className="rightNav fixed">
                 <div className="rightLinks">ABOUT</div>
+                <div className="contactNav">
                 <div className="rightText">CONTACT:</div>
-                <div className="rightLinks">PHONE</div>
-                <div className="rightLinks">EMAIL</div>
+                <div className="rightIcons"><i className="fas fa-phone-alt fa-lg"></i></div>
+                <div className="rightIcons"><i className="fas fa-envelope-open-text fa-lg"></i></div>
+                
+                </div>
                 </div>
             </div>
         )
