@@ -82,7 +82,7 @@ a {
   justify-content: center;
   height: 100%;
   max-width: 100%;
-  padding-left: 2%;
+  padding-left: 3%;
 }
 .mainLogo {
   display: flex;
@@ -340,7 +340,7 @@ a {
 }
 
 .rightIcons:hover {
-  color: rgb(13, 12, 53);
+  color: rgb(0, 7, 41);
   -moz-transition: all 0.2s ease-in;
   -o-transition: all 0.2s ease-in;
   -webkit-transition: all 0.2s ease-in;
@@ -349,7 +349,7 @@ a {
 
 
 .rightText {
-  color:#003647;
+  color: #003647;
   padding-left: 3%;
   margin-right: 5.5%;
   font-weight: 600;
