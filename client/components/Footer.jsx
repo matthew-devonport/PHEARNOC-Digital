@@ -13,8 +13,8 @@ class Footer extends React.Component {
                         <div className="leftFooter">
                             <div className="contactTitle">CONTACT US</div>
                             <div id="contactLinks"></div>
-                            <a>0204198333</a>
-                            <a>matthew@phearnoc.com</a>
+                            <a href="tel:02041988333" className="contact">02041988333</a>
+                            <a href="mailto:matthew@phearnoc.com" className="contact">matthew@phearnoc.com</a>
                         </div>
                         <div className="socialMedia">
                             <div className="mediaTitle">SOCIAL MEDIA</div>
@@ -25,8 +25,9 @@ class Footer extends React.Component {
                             </div>
                         </div>
                     </div>
+                    <div className="footerImg"><img src="./img/eyes.png" alt="Eyes" className="footerEyes"></img></div>
                     <div className="copyrightText">
-                        Copyright &copy; 2020&nbsp;<p className="brand">PHEARNOC Digital.</p>&nbsp;All rights reserved.<br />
+                        Copyright &copy; 2020&nbsp;<p className="brand">PHEARNOC Digital</p>. All rights reserved.<br />
                     </div>
                 </div>
             </React.Fragment>
