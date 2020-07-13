@@ -138,17 +138,13 @@ a {
 @media screen and (max-width: 640px) {
   .headerFlex  {
     height: 60%;
-    padding-top: 40%;
+    padding-top: 10%;
     padding-left: 0%;
   
 }
 }
 
-@media screen and (max-width: 550px) {
-  .headerFlex  {
-    padding-top: 50%;
-  } 
-}
+
 
 .mainLogo {
   display: flex;
@@ -188,6 +184,7 @@ margin-top: -35%;
 @media screen and (max-width: 799px) {
   .mainLogo{
 height: 240px;
+
   } 
 }
 
@@ -196,6 +193,13 @@ height: 240px;
     height: 200px;
 }
 }
+
+@media screen and (max-width: 640px) {
+  .mainLogo {
+      height: 200px;
+      padding-top: 0%;
+  }
+  }
 
 @media screen and (max-width: 560px) {
   .mainLogo {
@@ -262,6 +266,7 @@ height: 240px;
 @media screen and (max-width: 640px) {
   .slogan{
     font-size: 20px;
+    margin-right: 8%;
   } 
 }  
 
@@ -444,7 +449,7 @@ margin-top: 10%;
         margin-top: -20%;
       }
       .mainLogo {
-        margin-top: -30%;
+        margin-top: 10%;
         padding-bottom: 5%;
       }
 
