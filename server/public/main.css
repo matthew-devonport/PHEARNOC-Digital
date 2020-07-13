@@ -28,6 +28,12 @@ body {
 }
 }
 
+@media screen and (max-width: 600px) {
+  #main {
+    padding-top: 8%;
+  }
+  }
+
 
 #header {
     height: 90vh;
@@ -129,6 +135,21 @@ a {
   } 
 }
 
+@media screen and (max-width: 640px) {
+  .headerFlex  {
+    height: 60%;
+    padding-top: 40%;
+    padding-left: 0%;
+  
+}
+}
+
+@media screen and (max-width: 550px) {
+  .headerFlex  {
+    padding-top: 50%;
+  } 
+}
+
 .mainLogo {
   display: flex;
   height: 300px;
@@ -168,8 +189,20 @@ margin-top: -35%;
   .mainLogo{
 height: 240px;
   } 
-}  
+}
 
+@media screen and (max-width: 640px) {
+.mainLogo {
+    height: 200px;
+}
+}
+
+@media screen and (max-width: 560px) {
+  .mainLogo {
+      height: 180px;
+  }
+
+}
 .headerPics {
   display: flex;
   justify-content: flex-end;
@@ -214,13 +247,27 @@ height: 240px;
 
 @media screen and (max-width: 800px) {
   .slogan {
+    margin-left: 0;
+    margin-right: 19%;
     padding-left: 2%;
-  } 
+  }
 }
 
 @media screen and (max-width: 799px) {
   .slogan{
     font-size: 23px;
+  } 
+}
+
+@media screen and (max-width: 640px) {
+  .slogan{
+    font-size: 20px;
+  } 
+}  
+
+@media screen and (max-width: 500px) {
+  .slogan{
+    margin-right: 8%;
   } 
 }  
 
@@ -380,10 +427,7 @@ height: 240px;
       #header {
         flex-direction: column;
       }
-.headerFlex {
-height: 60%;
-padding-top: 40%;
-}
+
 .headerPics {
 justify-content: center;
 width: 100%;
@@ -403,13 +447,24 @@ margin-top: 10%;
         margin-top: -30%;
         padding-bottom: 5%;
       }
-      .slogan {
-        margin-left: 0;
-        margin-right: 19%;
-      }
+
     }
 
+    @media screen and (max-width: 640px) {
+    .eyes {
+        margin-bottom: 0;
+        margin-left: 50%;
+        margin-top: -20%;
+      }  
+    }
 
+    @media screen and (max-width: 550px) {
+      .eyes {
+          margin-bottom: 0;
+          margin-left: 30%;
+          margin-top: -20%;
+        }  
+      }    
 
   /* ------ Pop Up Box ------ */
 
@@ -605,6 +660,13 @@ margin-top: 10%;
   }
 }
 
+@media screen and (max-width: 1390px) {
+  .rightLinks {
+    padding-top: 0.7%;
+    font-size: 16px;
+  }
+}
+
 
 .rightLinks { 
   -moz-transition: all 0.2s ease-in;
@@ -659,6 +721,13 @@ margin-top: 10%;
 }
 
 
+@media screen and (max-width: 640px) {
+  .rightText {
+    padding-top: 1.2%;
+    font-size: 16px;
+  }
+}
+
 .navBackground {
   display: flex;
   font-family: 'Orbitron', 'Arial', 'sans-serif';
@@ -701,6 +770,24 @@ margin-top: 10%;
   } 
 }
 
+@media screen and (max-width: 799px) {
+  .contactNav {
+    padding-right: 5.3%;
+  } 
+}
+
+@media screen and (max-width: 670px) {
+  .contactNav {
+    padding-right: 6.5%;
+  } 
+}
+
+@media screen and (max-width: 500px) {
+  .contactNav {
+    padding-right: 7.5%;
+  } 
+}
+
 /* -------- Footer ------- */
 
 #footer {
@@ -726,6 +813,14 @@ margin-top: 10%;
 
   }
 
+  
+@media screen and (max-width: 600px) {
+  .socialMedia{
+    padding-right: 3%;
+  } 
+}
+
+
   .mediaLinks {
     display: flex;
     justify-content: center;
@@ -746,6 +841,13 @@ margin-top: 10%;
     padding-left: 1%;
 
 }
+
+@media screen and (max-width: 600px) {
+  .leftFooter {
+    padding-left: 3%;
+  } 
+}
+
 .mediaTitle {
 font-family: 'Orbitron', 'Arial', 'sans-serif';
 padding-top: 4%;
@@ -756,6 +858,12 @@ max-width: 100%;
 @media screen and (max-width: 1390px) {
   .mediaTitle {
     font-size: 18px;
+  } 
+}
+
+@media screen and (max-width: 640px) {
+  .mediaTitle {
+    font-size: 14px;
   } 
 }
 
@@ -792,6 +900,12 @@ max-width: 100%;
   } 
 }
 
+@media screen and (max-width: 640px) {
+  .copyrightText {
+    font-size: 0.55rem;
+  } 
+}
+
 .contactTitle {
   font-family: 'Orbitron', 'Arial', 'sans-serif';
   color: #40E0D0;
@@ -802,6 +916,12 @@ padding-bottom: 4%;
 @media screen and (max-width: 1390px) {
   .contactTitle {
     font-size: 18px;
+  } 
+}
+
+@media screen and (max-width: 640px) {
+  .contactTitle {
+    font-size: 14px;
   } 
 }
 
@@ -869,6 +989,12 @@ a:active {
       height: 120px;
     }
     } 
+
+    @media screen and (max-width: 550px)   {
+      .footerEyes {
+        height: 100px;
+      }
+      } 
 
   /* -------- Services Home ------- */
 
