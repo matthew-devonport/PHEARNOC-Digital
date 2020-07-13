@@ -22,6 +22,18 @@ body {
     z-index: 3;
 }
 
+@media screen and (max-width: 850px) {
+#main {
+  padding-top: 5%;
+}
+}
+
+@media screen and (max-width: 600px) {
+  #main {
+    padding-top: 8%;
+  }
+  }
+
 
 #header {
     height: 90vh;
@@ -39,6 +51,15 @@ body {
   }
 }
 
+@media screen and (max-width: 800px) {
+  #header {
+    height: 60vh;
+    width: 100%;
+    max-width: 100%;
+  }
+}
+
+
 
 h1 {
     font-weight: 700;
@@ -49,6 +70,12 @@ h1 {
 @media screen and (max-width: 1390px) {
   h1 {
     font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 900px)   {
+  h1 {
+font-size: 25px;
   }
 }
 
@@ -101,6 +128,24 @@ a {
   max-width: 100%;
   padding-left: 3%;
 }
+
+@media screen and (max-width: 850px) {
+  .headerFlex  {
+    padding-left: 1%;
+  } 
+}
+
+@media screen and (max-width: 640px) {
+  .headerFlex  {
+    height: 60%;
+    padding-top: 10%;
+    padding-left: 0%;
+  
+}
+}
+
+
+
 .mainLogo {
   display: flex;
   height: 300px;
@@ -130,6 +175,38 @@ a {
   } 
 }
 
+@media screen and (max-width: 850px) {
+  .mainLogo {
+margin-top: -35%;
+  } 
+}
+
+@media screen and (max-width: 799px) {
+  .mainLogo{
+height: 240px;
+
+  } 
+}
+
+@media screen and (max-width: 640px) {
+.mainLogo {
+    height: 200px;
+}
+}
+
+@media screen and (max-width: 640px) {
+  .mainLogo {
+      height: 200px;
+      padding-top: 0%;
+  }
+  }
+
+@media screen and (max-width: 560px) {
+  .mainLogo {
+      height: 180px;
+  }
+
+}
 .headerPics {
   display: flex;
   justify-content: flex-end;
@@ -171,6 +248,33 @@ a {
     font-size: 20px;
   } 
 }
+
+@media screen and (max-width: 800px) {
+  .slogan {
+    margin-left: 0;
+    margin-right: 19%;
+    padding-left: 2%;
+  }
+}
+
+@media screen and (max-width: 799px) {
+  .slogan{
+    font-size: 23px;
+  } 
+}
+
+@media screen and (max-width: 640px) {
+  .slogan{
+    font-size: 20px;
+    margin-right: 8%;
+  } 
+}  
+
+@media screen and (max-width: 500px) {
+  .slogan{
+    margin-right: 8%;
+  } 
+}  
 
 .clawFlex {
   display: flex;
@@ -267,7 +371,7 @@ a {
 
 @media screen and (max-width: 1100px)   {
   .eyes {
-    height: 140px;
+    height: 100px;
     width: auto;
   } 
   .claw {
@@ -278,7 +382,94 @@ a {
   }
 }
 
+@media screen and (max-width: 1020px)   {
+  .eyes {
+    margin-left: 5%;
+  } 
+}
 
+@media screen and (max-width: 970px)   {
+  .eyes {
+    height: 120px;
+    width: auto;
+    margin-right: 0;
+    margin-left: -10%;
+    margin-bottom: 40%;
+  } 
+  .claw {
+    margin-left: 11%;
+    margin-bottom: -6%;
+  } 
+}
+
+@media screen and (max-width: 900px)   {
+  .eyes {
+    height: 100px;
+    width: auto;
+    margin-right: 0;
+    margin-left: -10%;
+    margin-bottom: 60%;
+  }   
+  .claw {
+    margin-left: -25%;
+    margin-bottom: -6%;
+  } 
+  } 
+
+  @media screen and (max-width: 800px)   {
+    .eyes {
+      margin-left: -20%;
+      margin-bottom: 50%;
+    }   
+    .claw {
+      margin-left: -55%;
+      margin-bottom: -6%;
+    } 
+    } 
+
+    @media screen and (max-width: 799px) {
+
+      #header {
+        flex-direction: column;
+      }
+
+.headerPics {
+justify-content: center;
+width: 100%;
+margin-top: 10%;
+      }
+    
+      .clawFlex {
+        width: 100%;
+        max-width: 100%;
+      }
+      .eyes {
+        margin-bottom: 0;
+        margin-left: 60%;
+        margin-top: -20%;
+      }
+      .mainLogo {
+        margin-top: 10%;
+        padding-bottom: 5%;
+      }
+
+    }
+
+    @media screen and (max-width: 640px) {
+    .eyes {
+        margin-bottom: 0;
+        margin-left: 50%;
+        margin-top: -20%;
+      }  
+    }
+
+    @media screen and (max-width: 550px) {
+      .eyes {
+          margin-bottom: 0;
+          margin-left: 30%;
+          margin-top: -20%;
+        }  
+      }    
 
   /* ------ Pop Up Box ------ */
 
@@ -474,6 +665,13 @@ a {
   }
 }
 
+@media screen and (max-width: 1390px) {
+  .rightLinks {
+    padding-top: 0.7%;
+    font-size: 16px;
+  }
+}
+
 
 .rightLinks { 
   -moz-transition: all 0.2s ease-in;
@@ -528,6 +726,13 @@ a {
 }
 
 
+@media screen and (max-width: 640px) {
+  .rightText {
+    padding-top: 1.2%;
+    font-size: 16px;
+  }
+}
+
 .navBackground {
   display: flex;
   font-family: 'Orbitron', 'Arial', 'sans-serif';
@@ -570,6 +775,24 @@ a {
   } 
 }
 
+@media screen and (max-width: 799px) {
+  .contactNav {
+    padding-right: 5.3%;
+  } 
+}
+
+@media screen and (max-width: 670px) {
+  .contactNav {
+    padding-right: 6.5%;
+  } 
+}
+
+@media screen and (max-width: 500px) {
+  .contactNav {
+    padding-right: 7.5%;
+  } 
+}
+
 /* -------- Footer ------- */
 
 #footer {
@@ -595,6 +818,14 @@ a {
 
   }
 
+  
+@media screen and (max-width: 600px) {
+  .socialMedia{
+    padding-right: 3%;
+  } 
+}
+
+
   .mediaLinks {
     display: flex;
     justify-content: center;
@@ -615,6 +846,13 @@ a {
     padding-left: 1%;
 
 }
+
+@media screen and (max-width: 600px) {
+  .leftFooter {
+    padding-left: 3%;
+  } 
+}
+
 .mediaTitle {
 font-family: 'Orbitron', 'Arial', 'sans-serif';
 padding-top: 4%;
@@ -625,6 +863,12 @@ max-width: 100%;
 @media screen and (max-width: 1390px) {
   .mediaTitle {
     font-size: 18px;
+  } 
+}
+
+@media screen and (max-width: 640px) {
+  .mediaTitle {
+    font-size: 14px;
   } 
 }
 
@@ -661,6 +905,12 @@ max-width: 100%;
   } 
 }
 
+@media screen and (max-width: 640px) {
+  .copyrightText {
+    font-size: 0.55rem;
+  } 
+}
+
 .contactTitle {
   font-family: 'Orbitron', 'Arial', 'sans-serif';
   color: #40E0D0;
@@ -671,6 +921,12 @@ padding-bottom: 4%;
 @media screen and (max-width: 1390px) {
   .contactTitle {
     font-size: 18px;
+  } 
+}
+
+@media screen and (max-width: 640px) {
+  .contactTitle {
+    font-size: 14px;
   } 
 }
 
@@ -687,8 +943,16 @@ padding-bottom: 4%;
 @media screen and (max-width: 1390px) {
   .contact {
     font-size: 17px;
+    padding-bottom: 4%;
+    padding-top: 4%
   } 
 }
+
+@media screen and (max-width: 800px)   {
+  .contact {
+    font-size: 12px;
+  }
+  } 
 
 a:link,
 a:visited {
@@ -725,6 +989,18 @@ a:active {
     margin-top: -2%;
   }
 
+  @media screen and (max-width: 800px)   {
+    .footerEyes {
+      height: 120px;
+    }
+    } 
+
+    @media screen and (max-width: 550px)   {
+      .footerEyes {
+        height: 100px;
+      }
+      } 
+
   /* -------- Services Home ------- */
 
   .servicesArea {
@@ -754,6 +1030,12 @@ a:active {
     text-align: center;
     margin-top: 3%;
   }
+
+  @media screen and (max-width: 800px)   {
+    .servicesInfo {
+      font-size: 0.7rem;
+    }
+    } 
 
   .learnMore {
     font-size: 0.6rem;
@@ -792,6 +1074,13 @@ a:active {
       /* margin-left: 5%;
       margin-right: 5%; */
     }
+
+    @media screen and (max-width: 850px) {
+      .teamContent {
+      margin-left: 5%;
+      margin-right: 5%;
+      } 
+    }  
 
     .teamPic {
       height: 20vh;
