@@ -59,6 +59,13 @@ body {
   }
 }
 
+@media screen and (max-width: 800px) {
+  #header {
+    height: 65vh;
+  }
+}
+
+
 
 
 h1 {
@@ -181,11 +188,12 @@ margin-top: -35%;
   } 
 }
 
-@media screen and (max-width: 799px) {
-  .mainLogo{
-height: 240px;
-
-  } 
+@media screen and (max-width: 799px) {   
+  .mainLogo {
+    height: 240px;
+    margin-top: 10%;
+    padding-bottom: 5%;
+  }
 }
 
 @media screen and (max-width: 640px) {
@@ -204,9 +212,29 @@ height: 240px;
 @media screen and (max-width: 560px) {
   .mainLogo {
       height: 180px;
-  }
-
+  }  
 }
+
+@media screen and (max-width: 450px) {
+  .mainLogo {
+      height: 140px;
+      margin-top: 0.5%;
+      padding-bottom: 2%;
+  }  
+}
+
+@media screen and (max-width: 425px) {
+  .mainLogo {
+      margin-top: 15%;
+  }  
+}
+
+@media screen and (max-width: 390px) {
+  .mainLogo {
+      height: 130px;
+  }  
+}
+
 .headerPics {
   display: flex;
   justify-content: flex-end;
@@ -275,6 +303,22 @@ height: 240px;
     margin-right: 8%;
   } 
 }  
+
+@media screen and (max-width: 450px) {
+  .slogan {
+    font-size: 11px;
+    margin-right: 15%;
+    margin-bottom: 1.5%;
+  }  
+}
+
+@media screen and (max-width: 425px) {
+  .slogan {
+
+    margin-right: 10%;
+  }  
+}
+
 
 .clawFlex {
   display: flex;
@@ -427,6 +471,22 @@ height: 240px;
     } 
     } 
 
+
+
+    @media screen and (max-width: 450px) {
+      .claw {
+          height: 80px;
+          margin-bottom: 15%;
+      }  
+    }
+    
+    @media screen and (max-width: 450px) {
+      .eyes {
+          height: 70px;
+      }  
+    }
+
+
     @media screen and (max-width: 799px) {
 
       #header {
@@ -448,10 +508,7 @@ margin-top: 10%;
         margin-left: 60%;
         margin-top: -20%;
       }
-      .mainLogo {
-        margin-top: 10%;
-        padding-bottom: 5%;
-      }
+
 
     }
 
@@ -649,8 +706,8 @@ margin-top: 10%;
     width: 100%;
     right: 0;
     padding-right: 0.5%;
-    padding-top: 0.5%;
-    padding-bottom: 0.5%;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
 }
 
 .rightLinks {
@@ -690,7 +747,7 @@ margin-top: 10%;
 }
 
 .rightIcons {
-  color: #003647;
+  color: #40E0D0;
   margin-left: 5%;
   margin-right: 5%;
   cursor: pointer;
@@ -713,7 +770,7 @@ margin-top: 10%;
 
 
 .rightText {
-  color: #003647;
+  color: #40E0D0;
   padding-left: 3%;
   margin-right: 5.5%;
   font-weight: 600;
@@ -747,8 +804,7 @@ margin-top: 10%;
 .contactNav {
   display: flex;
   flex-direction: row;
-  background-color: #40E0D0;
-  margin-right: 1%;
+  margin-right: 5%;
   padding-right: 2.7%;
   padding-top: 0.4%;
   padding-bottom: 0.4%;
@@ -954,6 +1010,12 @@ padding-bottom: 4%;
   }
   } 
 
+  @media screen and (max-width: 450px)   {
+    .contact {
+      font-size: 10px;
+    }
+    } 
+
 a:link,
 a:visited {
     color: white;
@@ -1025,6 +1087,13 @@ a:active {
     margin-right: 4%;
     margin-top: 5%;
   }
+
+  @media screen and (max-width: 450px)   {
+    .servicesContent {
+      margin-top: 15%;
+    }
+    } 
+
   .servicesInfo {
     font-size: 0.6rem;
     text-align: center;
@@ -1097,6 +1166,12 @@ a:active {
       } 
     }    
 
+    @media screen and (max-width: 450px) {
+      .teamPic {
+        height: 200px;
+      } 
+    }   
+
     .teamInfo {
       font-size: 0.8rem;
       text-align: center;
@@ -1116,6 +1191,12 @@ a:active {
         font-size: 1.2rem;
       } 
     }
+
+    @media screen and (max-width: 390px) {
+      .teamTitle {
+        font-size: 1.1rem;
+      } 
+    }   
 
     .teamIcons {
       text-align: center;
@@ -1182,6 +1263,14 @@ a:active {
   margin-right: 3%;
   cursor: pointer;
 }
+
+@media screen and (max-width: 450px) {
+  .customerLogo {
+    margin-top: 10%;
+    margin-bottom: 10%;
+  } 
+}
+
 
 /* --- About Us --- */
 
