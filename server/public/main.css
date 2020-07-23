@@ -314,7 +314,7 @@ margin-top: -35%;
 
 @media screen and (max-width: 425px) {
   .slogan {
-
+    font-size: 15px;
     margin-right: 10%;
   }  
 }
@@ -475,8 +475,8 @@ margin-top: -35%;
 
     @media screen and (max-width: 450px) {
       .claw {
-          height: 80px;
-          margin-bottom: 15%;
+          height: 110px;
+          margin-bottom: -1%;
       }  
     }
     
@@ -729,6 +729,12 @@ margin-top: 10%;
   }
 }
 
+@media screen and (max-width: 450px) {
+  .rightLinks {
+    padding-top: 1%;
+  }
+}
+
 
 .rightLinks { 
   -moz-transition: all 0.2s ease-in;
@@ -761,7 +767,7 @@ margin-top: 10%;
 }
 
 .rightIcons:hover {
-  color: rgb(0, 7, 41);
+  color: rgb(255, 255, 255);
   -moz-transition: all 0.2s ease-in;
   -o-transition: all 0.2s ease-in;
   -webkit-transition: all 0.2s ease-in;
