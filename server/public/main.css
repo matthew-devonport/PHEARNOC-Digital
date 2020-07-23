@@ -1322,6 +1322,7 @@ a:active {
   .customerLogo {
     height: 25vh;
     padding: 0;
+    padding-right: 8%;
     margin-top: 10%;
     margin-bottom: 10%;
   } 
