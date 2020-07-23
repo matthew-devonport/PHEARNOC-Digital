@@ -124,6 +124,7 @@ a {
 }
 
 
+
 /* -- Header -- */
 
 
@@ -315,7 +316,7 @@ margin-top: -35%;
 @media screen and (max-width: 425px) {
   .slogan {
     font-size: 15px;
-    margin-right: 10%;
+    margin-right: 8%;
   }  
 }
 
@@ -712,7 +713,7 @@ margin-top: 10%;
 
 .rightLinks {
   padding-right: 5%;
-  padding-top: 0.5%;
+  padding-top: 0.4%;
   cursor: pointer;
 }
 
@@ -1039,12 +1040,13 @@ padding-bottom: 4%;
 
 a:link,
 a:visited {
-    color: white;
+    /* color: white; */
+    color: inherit;
     text-decoration: none;
-    transition: color 0.2s;
-    transition: color 0.2s;
+    /* transition: color 0.2s;
+    transition: color 0.2s; */
 }
-a:hover,
+/* a:hover,
 a:active {
     color: #40E0D0;
     text-shadow: 0px 0px 25px #40E0D0;
@@ -1052,7 +1054,7 @@ a:active {
     -o-transition: all 0.2s ease-in;
     -webkit-transition: all 0.2s ease-in;
     transition: all 0.2s ease-in;
-    }
+    } */
 
 
   .brand {
@@ -1301,8 +1303,20 @@ a:active {
   margin-top: 5%;
   margin-left: 3%;
   margin-right: 3%;
+  padding-left: 20%;
+  padding-right: 20%;
   cursor: pointer;
 }
+
+@media screen and (max-width: 1100px) {
+  .customerLogo {
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+  } 
+}
+
 
 @media screen and (max-width: 450px) {
   .customerLogo {

@@ -19,9 +19,9 @@ class Footer extends React.Component {
                         <div className="socialMedia">
                             <div className="mediaTitle">SOCIAL MEDIA</div>
                             <div className="mediaLinks">
-                                <i className="fab fa-facebook-square fa-lg facebookIcon footerMedia"></i>
-                                <i className="fab fa-instagram instaIcon fa-lg footerMedia"></i>
-                                <i className="fab fa-linkedin linkedIcon fa-lg footerMedia"></i>
+                            <a href="https://www.facebook.com/PHEARNOC" target="_blank" className="footerMedia"><i className="fab fa-facebook-square fa-lg facebookIcon"></i></a>
+                            <a href="https://www.instagram.com/phearnoc" target="_blank" className="footerMedia"><i className="fab fa-instagram instaIcon fa-lg"></i></a>
+                            <a href="https://www.linkedin.com/company/phearnoc-digital" target="_blank" className="footerMedia"><i className="fab fa-linkedin linkedIcon fa-lg"></i></a>
                             </div>
                         </div>
                     </div>
