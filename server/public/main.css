@@ -1321,6 +1321,7 @@ a:active {
 @media screen and (max-width: 450px) {
   .customerLogo {
     height: 25vh;
+    padding: 0;
     margin-top: 10%;
     margin-bottom: 10%;
   } 
