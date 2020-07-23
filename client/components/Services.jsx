@@ -30,23 +30,23 @@ class Services extends React.Component {
     render() {
         return (
             <React.Fragment>
-                <h1>What services does Phearnoc Digital offer?</h1>
+                <h1 className="topTitle">What services does Phearnoc Digital offer?</h1>
                 <div className="servicesArea">
                     <div className="servicesContent">
                         <img src="./img/react-icon.png" alt="React Icon" className="icons"></img>
-                        <p className="centerText">What is the core of our business?</p>
+                        <p className="centerText"><strong>What is the core of our business?</strong></p>
                         <p className="servicesInfo">What services does PHEARNOC Digital offer to your business?</p>
                         <p onClick={() => this.setPopup(this.phearnocServices)} className="learnMore">Learn More</p>
                     </div>
                     <div className="servicesContent">
                         <img src="./img/contract-icon.png" alt="Contract Icon" className="icons"></img>
-                        <p className="centerText">Contract us to code</p>
+                        <p className="centerText"><strong>Contract us to code</strong></p>
                         <p className="servicesInfo">Need your website design coded? We can do it!</p>
                         <p onClick={() => this.setPopup(this.contractUs)} className="learnMore">Learn More</p>
                     </div>
                     <div className="servicesContent">
                         <img src="./img/checklist-icon.png" alt="Maintain Icon" className="icons"></img>
-                        <p className="centerText">Service Plan</p>
+                        <p className="centerText"><strong>Service Plan</strong></p>
                         <p className="servicesInfo">Great benefits for you business at a low monthly rate.</p>
                         <p className="learnMore">Coming Soon!</p>
                     </div>

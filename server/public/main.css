@@ -1086,6 +1086,19 @@ a:active {
     margin-right: auto;
     margin-bottom: 3%;
   }
+  @media screen and (max-width: 450px)   {
+  .topTitle {
+  padding-top: 7%;
+  }
+}
+
+@media screen and (max-width: 450px)   {
+  .subTitles {
+    font-size: 27px;
+    padding-top: 7%;
+    padding-bottom: 5%;
+  }
+}
 
   .servicesContent {
     align-self: center;
@@ -1272,6 +1285,7 @@ a:active {
 
 @media screen and (max-width: 450px) {
   .customerLogo {
+    height: 25vh;
     margin-top: 10%;
     margin-bottom: 10%;
   } 
