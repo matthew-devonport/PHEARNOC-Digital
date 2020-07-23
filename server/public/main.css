@@ -865,6 +865,8 @@ margin-top: 10%;
     width: 100%;
     max-width: 100%;
   }
+
+
   
   .footerFlex {
     display: flex;
@@ -884,6 +886,12 @@ margin-top: 10%;
 @media screen and (max-width: 600px) {
   .socialMedia{
     padding-right: 3%;
+  } 
+}
+
+@media screen and (max-width: 450px) {
+  .socialMedia{
+    padding-right: 2%;
   } 
 }
 
@@ -912,6 +920,12 @@ margin-top: 10%;
 @media screen and (max-width: 600px) {
   .leftFooter {
     padding-left: 3%;
+  } 
+}
+
+@media screen and (max-width: 450px) {
+  .leftFooter {
+    padding-left: 2%;
   } 
 }
 
@@ -1019,6 +1033,7 @@ padding-bottom: 4%;
   @media screen and (max-width: 450px)   {
     .contact {
       font-size: 10px;
+      padding-left: 2%;
     }
     } 
 
@@ -1049,6 +1064,12 @@ a:active {
   justify-content: center;
   width: 100%;
   max-width: 100%;
+}
+
+@media screen and (max-width: 450px) {
+  .footerImg{
+    padding-top: 15%;
+  } 
 }
 
   .footerEyes {
