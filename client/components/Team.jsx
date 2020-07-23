@@ -9,7 +9,7 @@ class Team extends React.Component {
         return (
 <React.Fragment>
     <div className="greyBackground">
-                <h1>Meet the Team!</h1> 
+                <h1 className="subTitles">Meet the Team!</h1> 
                 <div className="teamArea">               
                 <div className="teamContent">
                 <img src="./img/matthew-devonport.jpg" alt="React Icon" className="teamPic"></img>

@@ -314,7 +314,7 @@ margin-top: -35%;
 
 @media screen and (max-width: 425px) {
   .slogan {
-
+    font-size: 15px;
     margin-right: 10%;
   }  
 }
@@ -475,8 +475,8 @@ margin-top: -35%;
 
     @media screen and (max-width: 450px) {
       .claw {
-          height: 80px;
-          margin-bottom: 15%;
+          height: 110px;
+          margin-bottom: -1%;
       }  
     }
     
@@ -729,6 +729,12 @@ margin-top: 10%;
   }
 }
 
+@media screen and (max-width: 450px) {
+  .rightLinks {
+    padding-top: 1%;
+  }
+}
+
 
 .rightLinks { 
   -moz-transition: all 0.2s ease-in;
@@ -761,7 +767,7 @@ margin-top: 10%;
 }
 
 .rightIcons:hover {
-  color: rgb(0, 7, 41);
+  color: rgb(255, 255, 255);
   -moz-transition: all 0.2s ease-in;
   -o-transition: all 0.2s ease-in;
   -webkit-transition: all 0.2s ease-in;
@@ -859,6 +865,8 @@ margin-top: 10%;
     width: 100%;
     max-width: 100%;
   }
+
+
   
   .footerFlex {
     display: flex;
@@ -878,6 +886,12 @@ margin-top: 10%;
 @media screen and (max-width: 600px) {
   .socialMedia{
     padding-right: 3%;
+  } 
+}
+
+@media screen and (max-width: 450px) {
+  .socialMedia{
+    padding-right: 2%;
   } 
 }
 
@@ -906,6 +920,12 @@ margin-top: 10%;
 @media screen and (max-width: 600px) {
   .leftFooter {
     padding-left: 3%;
+  } 
+}
+
+@media screen and (max-width: 450px) {
+  .leftFooter {
+    padding-left: 2%;
   } 
 }
 
@@ -1013,6 +1033,7 @@ padding-bottom: 4%;
   @media screen and (max-width: 450px)   {
     .contact {
       font-size: 10px;
+      padding-left: 2%;
     }
     } 
 
@@ -1043,6 +1064,12 @@ a:active {
   justify-content: center;
   width: 100%;
   max-width: 100%;
+}
+
+@media screen and (max-width: 450px) {
+  .footerImg{
+    padding-top: 15%;
+  } 
 }
 
   .footerEyes {
@@ -1080,6 +1107,19 @@ a:active {
     margin-right: auto;
     margin-bottom: 3%;
   }
+  @media screen and (max-width: 450px)   {
+  .topTitle {
+  padding-top: 7%;
+  }
+}
+
+@media screen and (max-width: 450px)   {
+  .subTitles {
+    font-size: 27px;
+    padding-top: 7%;
+    padding-bottom: 5%;
+  }
+}
 
   .servicesContent {
     align-self: center;
@@ -1266,6 +1306,7 @@ a:active {
 
 @media screen and (max-width: 450px) {
   .customerLogo {
+    height: 25vh;
     margin-top: 10%;
     margin-bottom: 10%;
   } 
