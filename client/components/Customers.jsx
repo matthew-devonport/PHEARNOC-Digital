@@ -16,8 +16,6 @@ class Customers extends React.Component {
             </React.Fragment>
         )
     }
-    
-
 
 }
 export default Customers
