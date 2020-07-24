@@ -31,7 +31,7 @@ class PhearnocInfo extends React.Component {
                 Making sure that our customers and their businesses are opertaing online at their maximum ability is our main service and objective.
                 <br />       
                 We make the processes as simple and as easy as possible to make sure you and your business is not left in the dark.<br /><br />
-                <p className="centerText popUpLargerText">This gives you peace of mind that you are outsourcing your business to your customers digitally in the most effective way possible.</p>
+                <p className="centerText popUpLargerText"><strong>This gives you peace of mind that you are outsourcing your business to your customers digitally in the most effective way possible.</strong></p>
                 <br /><br />       
                 <strong>The ways we do this are:</strong><br /><br />
                 <ul>                  
@@ -42,16 +42,16 @@ class PhearnocInfo extends React.Component {
                 </p>
                 <div className="contactUs">
                 <p className="centerText popUpBold">Sounds great! I'm interested! What's the next step?</p>
-                <p className="centerText">Get in touch with us! Click one of the options below and give us a quick rundown on what your business or idea is!</p>    
+                <p className="centerText inTouch">Get in touch with us! Click one of the options below and give us a quick rundown on what your business or idea is!</p>    
 
                <div className="contactFlex">
                 <div className="contactColumn">
-               <img src="./img/phone.png" alt="React Icon" className="phoneLogo centerImg"></img>  
-               <a className="centerText">Phone Us</a>
+               <img src="./img/phone.png" alt="React Icon" className="phoneLogo contactLogo"></img>  
+               <a className="contactLogo">Phone Us</a>
                </div>
                <div className="contactColumn">  
-               <img src="./img/email.png" alt="React Icon" className="emailLogo centerImg"></img>
-               <a className="centerText">Email Us</a>
+               <img src="./img/email.png" alt="React Icon" className="emailLogo contactLogo"></img>
+               <a className="contactLogo">Email Us</a>
                </div>
                </div>
                </div>
