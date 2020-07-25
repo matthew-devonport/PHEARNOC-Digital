@@ -2,7 +2,7 @@ import React from 'react'
 
 import Header from './Header'
 import Team from './Team'
-import Nav from './Nav'
+import AboutNav from './AboutNav'
 import Footer from './Footer'
 
 
@@ -12,7 +12,7 @@ class AboutUs extends React.Component {
     render() {
         return (
             <React.Fragment>
-                <Nav />
+                <AboutNav />
                 <Header />
                 <div id="aboutUs">
                     <h1 className="aboutTitle">Who are PHEARNOC Digital and what do we do?</h1>
