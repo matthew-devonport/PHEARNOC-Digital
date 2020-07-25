@@ -7,7 +7,7 @@ class PhearnocInfo extends React.Component {
             <React.Fragment>
                 <h2 className="popUpTitle">What does PHERANOC Digital actually offer to my business or project?</h2>
                 <div className="popUpBorderBox">
-                <p className="centerText popUpBold popUpTopTitle">We build websites that connects your business with your customers.</p>    
+                <p className="centerText popUpBold popUpTopTitle">We build websites that connect your business with your customers.</p>    
                 <img src="./img/websites.png" alt="Websites Pictures" className="websitePic"></img>
                 <p className="popUpText">
                 How we shape this is by discussing with you what you offer to your customers, how you connect with them and what services or products you provide to them.<br /><br />
@@ -20,11 +20,11 @@ class PhearnocInfo extends React.Component {
                 <strong>Your website will be:</strong><br /><br />
                 <ul>
                 <li>Easy to read and navigate.</li><br />                    
-                <li>Responsive on desktops/laptops/tablets/phones.</li><br />
+                <li>Responsive on desktops, laptops, tablets &amp; mobile devices.</li><br />
                 <li>Running smoothly and have no bugs.</li><br />    
                 </ul>
                 How this will look and function depends on the size and budget of your project/business.<br/>
-                <p className="centerText popUpBold">But wait, It doesn't stop there!</p>
+                <p className="centerText popUpBold topPadding">But wait, It doesn't stop there!</p>
                 <br />     
                 Importantly, what we offer isn't just building a website for your business. We want to guide our customers through the complexity of the digital world.<br /><br />
                 We understand the importance of having a digital presence/trading abilities in current times and also how rapidly changing the digital and real world envrionments are.<br /><br />
