@@ -31,7 +31,7 @@ class AboutUs extends React.Component {
                     </div>
                     <div className="contactUs">
                <p className="centerText popUpBold">Sounds great! I'm interested! What's the next step?</p>
-                <p className="centerText">Get in touch with us! Click one of the options below and give us a quick rundown on what project you're working on and how we can help!</p>    
+                <p className="centerText inTouch">Get in touch with us! Click one of the options below and give us a quick rundown on what project you're working on and how we can help!</p>    
                <div className="contactFlex">
                 <div className="contactColumn">
                <img src="./img/phone.png" alt="React Icon" className="phoneLogo centerImg"></img>  
