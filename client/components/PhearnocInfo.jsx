@@ -45,14 +45,14 @@ class PhearnocInfo extends React.Component {
                 <p className="centerText inTouch">Get in touch with us! Click one of the options below and give us a quick rundown on what your business or idea is!</p>    
 
                <div className="contactFlex">
-                <div className="contactColumn">
+                <a href="tel:02041988333" className="contactColumn">
                <img src="./img/phone.png" alt="React Icon" className="phoneLogo contactLogo"></img>  
                <a className="contactLogo">Phone Us</a>
-               </div>
-               <div className="contactColumn">  
+               </a>
+               <a href="mailto:matthew@phearnoc.com"  className="contactColumn">  
                <img src="./img/email.png" alt="React Icon" className="emailLogo contactLogo"></img>
                <a className="contactLogo">Email Us</a>
-               </div>
+               </a>
                </div>
                </div>
             </div>

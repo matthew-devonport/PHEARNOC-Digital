@@ -34,6 +34,12 @@ body {
   }
   }
 
+  @media screen and (max-width: 375px) {
+    #main {
+      margin: -46px 30px 0px;
+    } 
+  }
+
 
 #header {
     height: 90vh;
@@ -236,6 +242,12 @@ margin-top: -35%;
   }  
 }
 
+@media screen and (max-width: 370px) {
+  .mainLogo {
+    height: 120px;
+  }  
+}
+
 @media screen and (max-width: 360px) {
   .mainLogo {
       margin-top: 5%;
@@ -323,6 +335,12 @@ margin-top: -35%;
   .slogan {
     font-size: 15px;
     margin-right: 8%;
+  }  
+}
+
+@media screen and (max-width: 370px) {
+  .slogan {
+    margin-right: 5%;
   }  
 }
 
@@ -500,6 +518,13 @@ margin-top: -35%;
         flex-direction: column;
       }
 
+      @media screen and (max-width: 375px) {
+        .claw {
+            margin-bottom: -14%;
+        }  
+      }
+
+
       @media screen and (max-width: 360px) {
         .claw {
             margin-left: -80%;
@@ -543,10 +568,11 @@ margin-top: 10%;
         }  
       }   
       
+      
       @media screen and (max-width: 360px) {
         .eyes {
            margin-left: 5%;
-           margin-top: -17%;
+           margin-top: -6%;
         }  
       }     
 
@@ -1532,6 +1558,12 @@ a:active {
   z-index: 3;
 }
 
+@media screen and (max-width: 375px) {
+  #aboutUs {
+    margin: -46px 30px 0px;
+  } 
+}
+
 #aboutArea {
   display: flex;
   flex-direction: row;
@@ -1543,16 +1575,70 @@ a:active {
   margin-bottom: 3%;
 }
 
+@media screen and (max-width: 1200px) {
+  #aboutArea {
+    margin-top: 4%;
+  } 
+}
+
 .aboutUsBold {
   font-size: 30px;
   font-weight: 600;
   margin: 0 0 2% 0;
 }
 
+@media screen and (max-width: 600px) {
+  .aboutUsBold {
+    font-size: 25px;
+    padding-top: 5%;
+  } 
+}
+
+@media screen and (max-width: 450px) {
+  .aboutUsBold {
+    font-size: 22px;
+  } 
+}
+
+
 .aboutUsLogo {
   max-height: 30vh;
   width: auto;
  }
+
+ @media screen and (max-width: 1200px) {
+  .aboutUsLogo {
+    height: 200px;
+    width: auto;
+  } 
+}
+@media screen and (max-width: 600px) {
+  .aboutUsLogo {
+    height: 150px;
+    width: auto;
+  } 
+}
+
+@media screen and (max-width: 450px) {
+  .aboutUsLogo {
+    height: 135px;
+    width: auto;
+  } 
+}
+
+@media screen and (max-width: 410px) {
+  .aboutUsLogo {
+    height: 120px;
+    width: auto;
+  } 
+}
+
+@media screen and (max-width: 370px) {
+  .aboutUsLogo {
+    height: 110px;
+    width: auto;
+  } 
+}
 
  .aboutUsInfo {
    display: flex;
@@ -1560,6 +1646,56 @@ a:active {
    max-width: 50%;
  }
 
+ @media screen and (max-width: 1200px) {
+  .aboutUsInfo {
+    max-width: 90%;
+  } 
+}
+
+@media screen and (max-width: 600px) {
+  .aboutUsInfo {
+    max-width: 95%;
+    text-align: center;
+  } 
+}
+
+@media screen and (max-width: 450px) {
+  .aboutUsInfo {
+  padding-bottom: 8%;
+  } 
+}
+
  .logoFlex {
    display: flex;
  }
+
+ .aboutTitle {
+  font-size: 40px;
+  font-weight: 600;
+  padding-top: 5%;
+}
+
+@media screen and (max-width: 600px) {
+  .aboutTitle {
+    font-size: 30px;
+    padding-top: 10%;
+    margin-right: 5%;
+    margin-left: 5%;
+  }
+  }
+
+
+@media screen and (max-width: 450px) {
+  .aboutTitle {
+    padding-top: 14%;
+    padding-bottom: 3%;
+    font-size: 25px;
+  }
+  }
+  
+  @media screen and (max-width: 400px) {
+    .aboutTitle {
+      margin-right: 2%;
+      margin-left: 2%;
+    }
+    } 
