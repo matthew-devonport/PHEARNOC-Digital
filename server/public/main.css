@@ -1543,6 +1543,12 @@ a:active {
   margin-bottom: 3%;
 }
 
+@media screen and (max-width: 1200px) {
+  #aboutArea {
+    margin-top: 4%;
+  } 
+}
+
 .aboutUsBold {
   font-size: 30px;
   font-weight: 600;
@@ -1554,12 +1560,44 @@ a:active {
   width: auto;
  }
 
+ @media screen and (max-width: 1200px) {
+  .aboutUsLogo {
+    height: 200px;
+    width: auto;
+  } 
+}
+
  .aboutUsInfo {
    display: flex;
    flex-direction: column;
    max-width: 50%;
  }
 
+ @media screen and (max-width: 1200px) {
+  .aboutUsInfo {
+    max-width: 90%;
+  } 
+}
+
  .logoFlex {
    display: flex;
  }
+
+ .aboutTitle {
+  font-size: 40px;
+  font-weight: 600;
+  padding-top: 5%;
+}
+@media screen and (max-width: 500px) {
+.aboutTitle {
+  font-size: 30px;
+}
+}
+
+@media screen and (max-width: 450px) {
+  .aboutTitle {
+    padding-top: 3%;
+    padding-bottom: 3%;
+    font-size: 25px;
+  }
+  } 
