@@ -31,14 +31,14 @@ class ContractUs extends React.Component {
                <p className="centerText popUpBold">Sounds great! I'm interested! What's the next step?</p>
                 <p className="centerText inTouch">Get in touch with us! Click one of the options below and give us a quick rundown on what project you're working on and how we can help!</p>    
                <div className="contactFlex">
-                <div className="contactColumn">
+                <a href="tel:02041988333" className="contactColumn">
                <img src="./img/phone.png" alt="React Icon" className="phoneLogo centerImg"></img>  
                <a className="centerText contactLogo">Phone Us</a>
-               </div>
-               <div className="contactColumn">  
+               </a>
+               <a href="mailto:matthew@phearnoc.com" className="contactColumn">  
                <img src="./img/email.png" alt="React Icon" className="emailLogo centerImg"></img>
                <a className="centerText contactLogo">Email Us</a>
-               </div>
+               </a>
                </div>
                </div>
             </div>
