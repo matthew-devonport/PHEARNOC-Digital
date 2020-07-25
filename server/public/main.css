@@ -764,6 +764,30 @@ padding-top: 5%;
   }
 }
 
+@media screen and (max-width: 1100px) {
+  .codingPic{
+    height: 300px;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .codingPic{
+    height: 250px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .codingPic{
+    height: 150px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .codingPic{
+    height: 130px;
+  }
+}
+
 .contactLogo {
   display: flex;
   align-self: center;
