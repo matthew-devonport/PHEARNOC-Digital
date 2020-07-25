@@ -236,6 +236,12 @@ margin-top: -35%;
   }  
 }
 
+@media screen and (max-width: 360px) {
+  .mainLogo {
+      margin-top: 5%;
+  }  
+}
+
 .headerPics {
   display: flex;
   justify-content: flex-end;
@@ -494,6 +500,14 @@ margin-top: -35%;
         flex-direction: column;
       }
 
+      @media screen and (max-width: 360px) {
+        .claw {
+            margin-left: -80%;
+        }  
+      }
+
+ 
+
 .headerPics {
 justify-content: center;
 width: 100%;
@@ -527,7 +541,14 @@ margin-top: 10%;
           margin-left: 30%;
           margin-top: -20%;
         }  
-      }    
+      }   
+      
+      @media screen and (max-width: 360px) {
+        .eyes {
+           margin-left: 5%;
+           margin-top: -17%;
+        }  
+      }     
 
   /* ------ Pop Up Box ------ */
 
@@ -599,6 +620,35 @@ margin-top: 10%;
     color: #800000;
   }
 
+  @media screen and (max-width: 600px) {
+    #popup-close {
+      position: absolute;
+      top: 0;
+      right: 0;
+      margin-right: 12px;
+      margin-top: -8px;
+      transition: all 200ms;
+      font-size: 2rem;
+      font-weight: bold;
+      text-decoration: none;
+        color: #40E0D0;
+        cursor: pointer;
+    }
+  
+    #popup-close-services {
+      position: fixed;
+      top: 0;
+      right: 0;
+      margin-right: 12px;
+      margin-top: -8px;
+      transition: all 200ms;
+      font-size: 2rem;
+      font-weight: bold;
+      text-decoration: none;
+        color: #40E0D0;
+        cursor: pointer;
+    }
+    }
 
   .popUpLogo {
     max-height: 55vh;
@@ -619,6 +669,12 @@ margin-top: 10%;
     font-size: 17px;
     }
   }   
+
+  @media screen and (max-width: 450px) {
+    .popUpText {
+    font-size: 15px;
+    }
+  } 
 
 .popUpBorderBox {
    margin: 60px 30px 0px;
@@ -641,12 +697,24 @@ margin-top: 10%;
   }
 }
 
+@media screen and (max-width: 450px) {
+  .popUpTitle {
+font-size: 1.3em;
+  }
+}
+
 .popUpTopTitle {
   padding-top: 3%;
 }
 
 .inTouch {
   margin: 0 5% 0 5%;
+}
+
+@media screen and (max-width: 402px) {
+  .inTouch {
+    font-size: 16px;
+  }
 }
 
 .popUpBold {
@@ -657,10 +725,16 @@ margin-top: 10%;
 @media screen and (max-width: 500px) {
 .popUpBold {
   font-size: 30px;
-  font-weight: 600;
-  margin: 2% 5% 2% 5%;
 }
 }
+
+@media screen and (max-width: 450px) {
+  .popUpBold {
+    padding-top: 3%;
+    padding-bottom: 3%;
+    font-size: 25px;
+  }
+  }
 
 @media screen and (max-width: 850px) {
   .topPadding {
@@ -699,6 +773,18 @@ padding-top: 5%;
 @media screen and (max-width: 500px) {
   .contactLogo {
     font-size: 17px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .contactLogo {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 402px) {
+  .contactLogo {
+    font-size: 12px;
   }
 }
 
@@ -742,7 +828,11 @@ padding-top: 5%;
   max-width: 20%;
 }
 
-
+@media screen and (max-width: 450px) {
+  .contactColumn {
+padding-top: 3%;
+  }
+}
 
 .emailLogo {
   max-height: 1000px;

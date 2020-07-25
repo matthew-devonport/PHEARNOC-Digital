@@ -20,7 +20,7 @@ class PhearnocInfo extends React.Component {
                 <strong>Your website will be:</strong><br /><br />
                 <ul>
                 <li>Easy to read and navigate.</li><br />                    
-                <li>Responsive on desktops/laptops/tablets/phones.</li><br />
+                <li>Responsive on desktops, laptops, tablets &amp; mobile devices.</li><br />
                 <li>Running smoothly and have no bugs.</li><br />    
                 </ul>
                 How this will look and function depends on the size and budget of your project/business.<br/>
