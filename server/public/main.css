@@ -50,6 +50,7 @@ padding-top: 5%;
 }
 
 
+ 
 #header {
   height: 90vh;
   background-color: black;
@@ -81,6 +82,15 @@ padding-top: 5%;
   height: 65vh;
 }
 }
+
+
+@media screen and (max-width: 375px) {
+  #header {
+    height: 72vh;
+  }
+  }
+  
+
 
 
 
