@@ -11,7 +11,7 @@ class Header extends React.Component {
             <React.Fragment>
                 <div id="header">
                     <div className="headerFlex">
-                        <div><img src=".server/public/img/logo.png" alt="Main Logo" className="mainLogo"></img></div>
+                        <div><img src="./img/logo.png" alt="Main Logo" className="mainLogo"></img></div>
                     <div className="slogan">FEAR NOT!<br />WE WILL BE YOUR DIGITAL PARTNER</div>
                     </div>
                     <div className="headerPics">
