@@ -526,7 +526,7 @@ function (_React$Component) {
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
         src: "./img/kc-logo.png",
         alt: "katipo coffee logo",
-        className: "customerLogo"
+        className: "customerLogo katipoLogo"
       }))));
     }
   }]);
