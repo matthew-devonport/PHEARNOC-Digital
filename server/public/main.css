@@ -1722,6 +1722,12 @@ align-items: center;
 }
 }
 
+@media screen and (max-width: 450px) {
+  .homeArea {
+    justify-content: center;
+  } 
+  }
+
 .customerLogo {
 height: 20vh;
 max-width: 30vw;
@@ -1747,7 +1753,7 @@ cursor: pointer;
 @media screen and (max-width: 450px) {
 .customerLogo {
   height: 20vh;
-  max-width: 25%;
+  max-width: 60vw;
   padding: 0;
   padding-right: 8%;
   margin-top: 10%;
@@ -1759,6 +1765,12 @@ cursor: pointer;
 .katipoLogo {
   height: 13vh;
 }
+
+@media screen and (max-width: 450px) {
+  .katipoLogo {
+    height: 10vh;
+  } 
+  }
 
 /* --- About Us --- */
 
