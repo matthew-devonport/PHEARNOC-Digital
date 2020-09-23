@@ -277,13 +277,14 @@ margin-top: -35%;
 
 @media screen and (max-width: 425px) {
 .mainLogo {
-    margin-top: 15%;
+    margin-top: 10%;
 }  
 }
 
 @media screen and (max-width: 390px) {
 .mainLogo {
     height: 130px;
+    margin-top: 25%;
 }  
 }
 
