@@ -506,6 +506,27 @@ function (_React$Component) {
         src: "./img/deathless.png",
         alt: "deathless logo",
         className: "customerLogo"
+      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        href: "http://www.housecoffee.co.nz",
+        target: "_blank"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+        src: "./img/hc-logo.png",
+        alt: "house coffee logo",
+        className: "customerLogo"
+      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        href: "http://www.soulmedicine.co.nz",
+        target: "_blank"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+        src: "./img/sm-logo.png",
+        alt: "soul medicine logo",
+        className: "customerLogo"
+      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        href: "http://www.katipocoffee.co.nz",
+        target: "_blank"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+        src: "./img/kc-logo.png",
+        alt: "katipo coffee logo",
+        className: "customerLogo"
       }))));
     }
   }]);
