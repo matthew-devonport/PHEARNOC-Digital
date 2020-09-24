@@ -8,10 +8,17 @@ describe('<Services /> Component', () => {
       wrapper = shallow(<Services />)
       instance = wrapper.instance()
        
-      test('Clicking learnMore calls popup', () => {
+      test('Clicking Learn More text calls popup', () => {
         expect.assertions(1)
         let button = wrapper.find('#learnMore')
         button.simulate('click')
         expect(instance.state.popupIsShowing).toBeTruthy()
-      })  
-})
+      }) 
+      
+      test('Clicking learnMore triggers setPopup', () => {
+        expect.assertions(1)
+        let button = wrapper.find('#learnMore')
+        button.simulate('click')
+        expect(instance.setPopup).toBeTruthy()
+      })
+    })
