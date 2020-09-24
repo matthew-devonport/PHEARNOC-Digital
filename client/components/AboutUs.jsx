@@ -35,11 +35,11 @@ class AboutUs extends React.Component {
                <div className="contactFlex">
                 <a href="tel:02041988333"className="contactColumn">
                <img src="./img/phone.png" alt="React Icon" className="phoneLogo centerImg"></img>  
-               <a className="centerText">Phone Us</a>
+               <div className="centerText">Phone Us</div>
                </a>
                <a href="mailto:matthew@phearnoc.com" className="contactColumn">  
                <img src="./img/email.png" alt="React Icon" className="emailLogo centerImg"></img>
-               <a className="centerText">Email Us</a>
+               <div className="centerText">Email Us</div>
                </a>
                </div>
                </div>
