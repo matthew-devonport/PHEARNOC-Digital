@@ -1,7 +1,7 @@
 import React from 'react'
 import { shallow } from 'enzyme'
 
-import PopUpBox from '../client/components/PopUpBox'
+import PopUpBox from '../../client/components/PopUpBox'
 
 
   describe('<PopUpBox /> Component', () => {

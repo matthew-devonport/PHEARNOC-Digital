@@ -36,7 +36,7 @@ class Services extends React.Component {
                         <img src="./img/react-icon.png" alt="React Icon" className="icons"></img>
                         <p className="centerText"><strong>What is the core of our business?</strong></p>
                         <p className="servicesInfo">What services does PHEARNOC Digital offer to your business?</p>
-                        <p onClick={() => this.setPopup(this.phearnocServices)} className="learnMore">Learn More</p>
+                        <div onClick={() => this.setPopup(this.phearnocServices)} className="learnMore" id="learnMore">Learn More</div>
                     </div>
                     <div className="servicesContent">
                         <img src="./img/contract-icon.png" alt="Contract Icon" className="icons"></img>

@@ -1251,11 +1251,12 @@ var Services = /*#__PURE__*/function (_React$Component) {
         className: "centerText"
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("strong", null, "What is the core of our business?")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
         className: "servicesInfo"
-      }, "What services does PHEARNOC Digital offer to your business?"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+      }, "What services does PHEARNOC Digital offer to your business?"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         onClick: function onClick() {
           return _this2.setPopup(_this2.phearnocServices);
         },
-        className: "learnMore"
+        className: "learnMore",
+        id: "learnMore"
       }, "Learn More")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "servicesContent"
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
