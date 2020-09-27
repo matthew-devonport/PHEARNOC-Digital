@@ -6,9 +6,10 @@ import Nav from '../../client/components/Nav'
 
 
 describe('<Nav /> Component:', () => {
+    const wrapper = mount(<MemoryRouter><Nav /></MemoryRouter>);
+
 
     test('Includes link to AboutUs component', () => {
-        const wrapper = mount(<MemoryRouter><Nav /></MemoryRouter>);
         expect(wrapper.find('Link').props().to).toBe('/about');
     });
 })    
